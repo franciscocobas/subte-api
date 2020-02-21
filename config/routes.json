@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "method": "POST",
+      "path": "/contactemail",
+      "handler": "ContactEmail.index",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
