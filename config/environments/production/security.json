@@ -22,7 +22,7 @@
   },
   "cors": {
     "enabled": true,
-    "origin": "https://subte.uy"
+    "origin": "https://subte.uy, https://subte-api.herokuapp.com"
   },
   "ip": {
     "enabled": false,
