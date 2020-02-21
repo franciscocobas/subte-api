@@ -1,4 +1,6 @@
 {
+  "connection": "default",
+  "collectionName": "projects",
   "info": {
     "name": "project"
   },
@@ -11,8 +13,42 @@
       "type": "string",
       "required": true,
       "unique": true
+    },
+    "url": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "cardImageURI": {
+      "type": "string",
+      "required": true
+    },
+    "shortDescription": {
+      "type": "text"
+    },
+    "tags": {
+      "type": "json"
+    },
+    "descriptionPharagraphs": {
+      "type": "json"
+    },
+    "coverPhoto": {
+      "type": "string",
+      "required": true
+    },
+    "trabajosUrls": {
+      "type": "json"
+    },
+    "client": {
+      "type": "string",
+      "required": true
+    },
+    "sector": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string",
+      "required": true
     }
-  },
-  "connection": "default",
-  "collectionName": "projects"
+  }
 }

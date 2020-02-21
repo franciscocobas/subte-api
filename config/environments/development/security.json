@@ -22,7 +22,7 @@
   },
   "cors": {
     "enabled": true,
-    "origin": "https://subte.uy"
+    "origin": "https://subte.uy, http://localhost:1337"
   },
   "ip": {
     "enabled": false,
