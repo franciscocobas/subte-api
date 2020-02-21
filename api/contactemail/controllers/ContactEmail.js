@@ -16,7 +16,7 @@ module.exports = {
       if (from && name && text) {
 
         await strapi.plugins['email'].services.email.send({
-          to: 'franciscocobas@anima.edu.uy',
+          to: 'hola@subte.uy',
           from: from,
           replyTo: from,
           subject: `Contacto de la web por parte de: ${name}`,
