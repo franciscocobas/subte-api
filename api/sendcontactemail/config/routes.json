@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "method": "POST",
+      "path": "/sendcontactemail",
+      "handler": "sendcontactemail.index",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
