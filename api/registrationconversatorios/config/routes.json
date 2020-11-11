@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "method": "POST",
+      "path": "/registrationconversatorios",
+      "handler": "registrationconversatorios.index",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
