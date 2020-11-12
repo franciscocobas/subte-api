@@ -10,7 +10,7 @@ module.exports = {
     try {
       const { nombre, organizacion, mail, pregunta } = ctx.request.body;
 
-      if (nombre && organizacion && mail && pregunta) {
+      if (nombre && mail) {
         await strapi.plugins["email"].services.email.send({
           to: "contacto.subte@gmail.com",
           from: mail,
